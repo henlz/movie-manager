@@ -1,0 +1,27 @@
+.movies-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-card {
+  display: inline-block;
+  margin-right: 15px;
+  width: 50%;
+}
+
+.movie-image {
+  width: 100%;
+}
+
+.movie-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 20em) {
+  .movie-card {
+    width: 15%;
+  }
+}
